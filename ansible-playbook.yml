@@ -43,6 +43,7 @@
           
       - name: "update cache"
         yum:
+          name: "*"
           update_cache: yes
           state: latest
 
